@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Name Animator</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!-- btn onclick example -->
+
+<!-- <input type="button" id="button" class="btn btn-primary" value="Hi! :)" onclick="change()"> -->
+
+<h1 id="name">
+Claire
+</h1>
+<!-- start of btns -->
+  <!-- big btn -->
+  <input type="button"  id="bigBtn" class=" btn btn-info"
+  value="big" onclick="changeSize()">
+
+  <!-- color btn -->
+  <input type="button"  id="colorBtn" class=" btn btn-info"
+  value="color" onclick="changeColor()">
+
+  <!-- capitalize btn -->
+  <input type="button"  id="uppercaseBtn" class=" btn btn-info"
+  value="Uppercase" onclick="makeUppercase()">
+
+  <!-- hide btn -->
+  <input type="button"  id="hideBtn" class=" btn btn-info"
+  value="hide" onclick="hide()">
+  
+  <!-- show btn -->
+  <input type="button"  id="showBtn" class=" btn btn-info"
+  value="show" onclick="show()">
+
+  <!-- reset -->
+
+  <div>
+    <button value="refresh Page" onclick="reset()" class="btn btn-info">reset</button>
+  </div>
+
+ <!-- javascript -->
+  <script src="myscript.js"></script>
+</body>
+</html>
